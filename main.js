@@ -35,7 +35,7 @@ async function leftColour(color) { // Checks for left turn colour
 }
 
 
-//cRegister all events
+// Register all events
 registerEvent(EventType.onColor, finish1);
 registerEvent(EventType.onColor, finish2);
 registerEvent(EventType.onColor, rightColour);
